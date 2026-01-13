@@ -7,5 +7,3 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
-  server:
-    enable-self-preservation: true

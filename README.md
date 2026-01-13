@@ -91,8 +91,6 @@ eureka:
   client:
     register-with-eureka: false
     fetch-registry: false
-  server:
-    enable-self-preservation: true
 ```
 
 ---
