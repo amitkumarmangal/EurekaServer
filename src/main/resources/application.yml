@@ -3,6 +3,6 @@ spring:
     name: eureka-server
   cloud:
     config:
-      name: eureka-server,logging,actuator
+      name: eureka-server,actuator,tracing,logger
   config:
     import: configserver:http://localhost:8888
