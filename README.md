@@ -123,20 +123,6 @@ eureka:
 
 ---
 
-### Enable Client
-
-```java
-@EnableEurekaClient
-@SpringBootApplication
-public class OrderServiceApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(OrderServiceApplication.class, args);
-    }
-}
-```
-
----
-
 ## 🧠 Best Practices
 
 * Do not deploy a single Eureka node in production
